@@ -239,7 +239,8 @@ CMakeFiles/LeetCode.dir/main.cpp.o: ../main.cpp \
   ../include/Solution_findMedianSortedArrays.h \
   ../include/Solution_isMatch.h \
   ../include/Solution_mergeKLists.h \
-  ../include/Solution_reverseKGroup.h
+  ../include/Solution_reverseKGroup.h \
+  ../include/Solution_longestValidParentheses.h
 
 CMakeFiles/LeetCode.dir/src/Solution_countBits.cpp.o: ../src/Solution_countBits.cpp \
   ../include/Solution_countBits.h \
@@ -1551,6 +1552,8 @@ CMakeFiles/LeetCode.dir/src/utils.cpp.o: ../src/utils.cpp \
 ../include/Solution_findSubstring.h:
 
 ../src/Solution_findMedianSortedArrays.cpp:
+
+../include/Solution_longestValidParentheses.h:
 
 ../include/Solution_reverseKGroup.h:
 

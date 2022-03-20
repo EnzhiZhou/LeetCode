@@ -7,6 +7,7 @@
 #include "include/Solution_isMatch.h"
 #include "include/Solution_mergeKLists.h"
 #include "include/Solution_reverseKGroup.h"
+#include "include/Solution_longestValidParentheses.h"
 
 using namespace std;
 
@@ -60,8 +61,9 @@ int main(int argc,char *argv[])
     }
     cout << endl;
 
-    cout << "reverseKGroup: " << endl;
-    cout << "Test in Leetcode URL" << endl;
+    cout << "findSubstring: Test in Leetcode URL." << endl;
+
+    cout << "longestValidParentheses: Test in Leetcode URL." << endl;
     
 
 

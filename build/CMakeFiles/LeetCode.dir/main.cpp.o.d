@@ -237,4 +237,5 @@ CMakeFiles/LeetCode.dir/main.cpp.o: \
   /Users/enzhizhou/Desktop/Activities/C++/LeetCode/include/Solution_findMedianSortedArrays.h \
   /Users/enzhizhou/Desktop/Activities/C++/LeetCode/include/Solution_isMatch.h \
   /Users/enzhizhou/Desktop/Activities/C++/LeetCode/include/Solution_mergeKLists.h \
-  /Users/enzhizhou/Desktop/Activities/C++/LeetCode/include/Solution_reverseKGroup.h
+  /Users/enzhizhou/Desktop/Activities/C++/LeetCode/include/Solution_reverseKGroup.h \
+  /Users/enzhizhou/Desktop/Activities/C++/LeetCode/include/Solution_longestValidParentheses.h
