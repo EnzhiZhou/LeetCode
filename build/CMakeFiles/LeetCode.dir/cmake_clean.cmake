@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/LeetCode.dir/src/Solution_countBits.cpp.o.d"
   "CMakeFiles/LeetCode.dir/src/Solution_findMedianSortedArrays.cpp.o"
   "CMakeFiles/LeetCode.dir/src/Solution_findMedianSortedArrays.cpp.o.d"
+  "CMakeFiles/LeetCode.dir/src/Solution_findSubstring.cpp.o"
+  "CMakeFiles/LeetCode.dir/src/Solution_findSubstring.cpp.o.d"
   "CMakeFiles/LeetCode.dir/src/Solution_isMatch.cpp.o"
   "CMakeFiles/LeetCode.dir/src/Solution_isMatch.cpp.o.d"
   "CMakeFiles/LeetCode.dir/src/Solution_mergeKLists.cpp.o"

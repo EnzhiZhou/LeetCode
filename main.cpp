@@ -49,7 +49,6 @@ int main(int argc,char *argv[])
         cout << item << ",";
     }
     cout << endl;
-    cout << "Test in Leetcode URL" << endl;
 
     cout << "reverseKGroup: " << endl;
     Solution_reverseKGroup s5;
@@ -60,6 +59,9 @@ int main(int argc,char *argv[])
         cout << item << ",";
     }
     cout << endl;
+
+    cout << "reverseKGroup: " << endl;
+    cout << "Test in Leetcode URL" << endl;
     
 
 

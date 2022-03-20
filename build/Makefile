@@ -595,6 +595,30 @@ src/Solution_findMedianSortedArrays.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_findMedianSortedArrays.cpp.s
 .PHONY : src/Solution_findMedianSortedArrays.cpp.s
 
+src/Solution_findSubstring.o: src/Solution_findSubstring.cpp.o
+.PHONY : src/Solution_findSubstring.o
+
+# target to build an object file
+src/Solution_findSubstring.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_findSubstring.cpp.o
+.PHONY : src/Solution_findSubstring.cpp.o
+
+src/Solution_findSubstring.i: src/Solution_findSubstring.cpp.i
+.PHONY : src/Solution_findSubstring.i
+
+# target to preprocess a source file
+src/Solution_findSubstring.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_findSubstring.cpp.i
+.PHONY : src/Solution_findSubstring.cpp.i
+
+src/Solution_findSubstring.s: src/Solution_findSubstring.cpp.s
+.PHONY : src/Solution_findSubstring.s
+
+# target to generate assembly for a file
+src/Solution_findSubstring.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_findSubstring.cpp.s
+.PHONY : src/Solution_findSubstring.cpp.s
+
 src/Solution_isMatch.o: src/Solution_isMatch.cpp.o
 .PHONY : src/Solution_isMatch.o
 
@@ -740,6 +764,9 @@ help:
 	@echo "... src/Solution_findMedianSortedArrays.o"
 	@echo "... src/Solution_findMedianSortedArrays.i"
 	@echo "... src/Solution_findMedianSortedArrays.s"
+	@echo "... src/Solution_findSubstring.o"
+	@echo "... src/Solution_findSubstring.i"
+	@echo "... src/Solution_findSubstring.s"
 	@echo "... src/Solution_isMatch.o"
 	@echo "... src/Solution_isMatch.i"
 	@echo "... src/Solution_isMatch.s"
