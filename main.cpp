@@ -1,51 +1,15 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "../include/Solution_countBits.h"
-#include "../include/Solution_findMedianSortedArrays.h"
-// #include "include/Solution_isMatch.h"
+#include "include/utils.h"
+#include "include/Solution_countBits.h"
+#include "include/Solution_findMedianSortedArrays.h"
+#include "include/Solution_isMatch.h"
+#include "include/Solution_mergeKLists.h"
+#include "include/Solution_reverseKGroup.h"
 
 using namespace std;
 
-bool isMatch(string s, string p){
-    int m = s.size(), n = p.size();
-
-    // auto matches = [&](int i, int j){
-    //     if (i == 0 || j == 0){
-    //         return false;
-    //     }
-    //     if(p[j] == '.'){
-    //         return true;
-    //     }
-    //     return s[i] == p[j];
-    // };
-
-    auto matches = [&](int i, int j) {
-        if (i == 0) {
-            return false;
-        }
-        if (p[j - 1] == '.') {
-            return true;
-        }
-        return s[i - 1] == p[j - 1];
-    };
-
-    return matches(0 ,0);
-
-    // vector< vector<bool> > dp(m + 1,vector<bool>(n + 1, false));
-    // for (int i = 0; i <= m; ++i){
-    //     for (int j = 0; j <= n; ++j){
-    //         if (p[j-1] == '*'){
-    //             dp[i][j] = dp[i][j-2] || (dp[i-1][j] && matches(i, j));
-    //         }
-    //         else{
-    //             dp[i][j] = dp[i-1][j-1] && matches(i, j);
-    //         }
-    //     }
-    // }
-
-    // return dp[m][n];
-};
 
 int main(int argc,char *argv[])
 {
@@ -62,22 +26,43 @@ int main(int argc,char *argv[])
 
     cout << "findMedianSortedArrays: " << endl;
     Solution_findMedianSortedArrays s2;
-    vector<int> nums1(1);
-    vector<int> nums2(3);
-    nums1[0] = 2;
-    nums2[0] = 1, nums2[1] = 3 , nums2[2] = 4;
+    vector<int> nums1{2};
+    vector<int> nums2{1, 3, 4};
     double ret2 = s2.findMedianSortedArrays(nums1, nums2);
     cout << "result from findMedianSortedArrays: " << endl;
     cout << ret2 << endl;
 
     cout << "isMatch: " << endl;
-    // Solution_isMatch s3;
-    string s = "ss", p = "sp";
-    // bool ret3 = s3.isMatch(s, p);
-    cout << isMatch(s, p) << endl;
+    Solution_isMatch s3;
+    string s = "ab", p = ".*";
+    bool ret3 = s3.isMatch(s, p);
+    cout << ret3 << endl;
+
+    cout << "mergeKLists: " << endl;
+    Solution_mergeKLists s4;
+    vector<int>vec1{1, 4, 5};
+    vector<int>vec2{1, 3, 4};
+    vector<int>vec3{2, 6};
+    vector<ListNode*>input1{vec2ListNode(vec1), vec2ListNode(vec2), vec2ListNode(vec3)};
+    vector<int>ret4(ListNode2vec(s4.mergeKLists(input1)));
+    for (auto item : ret4){
+        cout << item << ",";
+    }
+    cout << endl;
+    cout << "Test in Leetcode URL" << endl;
+
+    cout << "reverseKGroup: " << endl;
+    Solution_reverseKGroup s5;
+    vector<int> vec5{1, 2, 3, 4, 5};
+    int k = 2;
+    vector<int> ret5 (ListNode2vec(s5.reverseKGroup(vec2ListNode(vec5), k)));
+    for (auto item : ret5){
+        cout << item << ",";
+    }
+    cout << endl;
+    
 
 
-    // cout << "result: " << isMatch(0, 0);
     return 0;
 }
 

@@ -595,6 +595,102 @@ src/Solution_findMedianSortedArrays.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_findMedianSortedArrays.cpp.s
 .PHONY : src/Solution_findMedianSortedArrays.cpp.s
 
+src/Solution_isMatch.o: src/Solution_isMatch.cpp.o
+.PHONY : src/Solution_isMatch.o
+
+# target to build an object file
+src/Solution_isMatch.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_isMatch.cpp.o
+.PHONY : src/Solution_isMatch.cpp.o
+
+src/Solution_isMatch.i: src/Solution_isMatch.cpp.i
+.PHONY : src/Solution_isMatch.i
+
+# target to preprocess a source file
+src/Solution_isMatch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_isMatch.cpp.i
+.PHONY : src/Solution_isMatch.cpp.i
+
+src/Solution_isMatch.s: src/Solution_isMatch.cpp.s
+.PHONY : src/Solution_isMatch.s
+
+# target to generate assembly for a file
+src/Solution_isMatch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_isMatch.cpp.s
+.PHONY : src/Solution_isMatch.cpp.s
+
+src/Solution_mergeKLists.o: src/Solution_mergeKLists.cpp.o
+.PHONY : src/Solution_mergeKLists.o
+
+# target to build an object file
+src/Solution_mergeKLists.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_mergeKLists.cpp.o
+.PHONY : src/Solution_mergeKLists.cpp.o
+
+src/Solution_mergeKLists.i: src/Solution_mergeKLists.cpp.i
+.PHONY : src/Solution_mergeKLists.i
+
+# target to preprocess a source file
+src/Solution_mergeKLists.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_mergeKLists.cpp.i
+.PHONY : src/Solution_mergeKLists.cpp.i
+
+src/Solution_mergeKLists.s: src/Solution_mergeKLists.cpp.s
+.PHONY : src/Solution_mergeKLists.s
+
+# target to generate assembly for a file
+src/Solution_mergeKLists.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_mergeKLists.cpp.s
+.PHONY : src/Solution_mergeKLists.cpp.s
+
+src/Solution_reverseKGroup.o: src/Solution_reverseKGroup.cpp.o
+.PHONY : src/Solution_reverseKGroup.o
+
+# target to build an object file
+src/Solution_reverseKGroup.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_reverseKGroup.cpp.o
+.PHONY : src/Solution_reverseKGroup.cpp.o
+
+src/Solution_reverseKGroup.i: src/Solution_reverseKGroup.cpp.i
+.PHONY : src/Solution_reverseKGroup.i
+
+# target to preprocess a source file
+src/Solution_reverseKGroup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_reverseKGroup.cpp.i
+.PHONY : src/Solution_reverseKGroup.cpp.i
+
+src/Solution_reverseKGroup.s: src/Solution_reverseKGroup.cpp.s
+.PHONY : src/Solution_reverseKGroup.s
+
+# target to generate assembly for a file
+src/Solution_reverseKGroup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_reverseKGroup.cpp.s
+.PHONY : src/Solution_reverseKGroup.cpp.s
+
+src/utils.o: src/utils.cpp.o
+.PHONY : src/utils.o
+
+# target to build an object file
+src/utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/utils.cpp.o
+.PHONY : src/utils.cpp.o
+
+src/utils.i: src/utils.cpp.i
+.PHONY : src/utils.i
+
+# target to preprocess a source file
+src/utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/utils.cpp.i
+.PHONY : src/utils.cpp.i
+
+src/utils.s: src/utils.cpp.s
+.PHONY : src/utils.s
+
+# target to generate assembly for a file
+src/utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/utils.cpp.s
+.PHONY : src/utils.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -644,6 +740,18 @@ help:
 	@echo "... src/Solution_findMedianSortedArrays.o"
 	@echo "... src/Solution_findMedianSortedArrays.i"
 	@echo "... src/Solution_findMedianSortedArrays.s"
+	@echo "... src/Solution_isMatch.o"
+	@echo "... src/Solution_isMatch.i"
+	@echo "... src/Solution_isMatch.s"
+	@echo "... src/Solution_mergeKLists.o"
+	@echo "... src/Solution_mergeKLists.i"
+	@echo "... src/Solution_mergeKLists.s"
+	@echo "... src/Solution_reverseKGroup.o"
+	@echo "... src/Solution_reverseKGroup.i"
+	@echo "... src/Solution_reverseKGroup.s"
+	@echo "... src/utils.o"
+	@echo "... src/utils.i"
+	@echo "... src/utils.s"
 .PHONY : help
 
 
