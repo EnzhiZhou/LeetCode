@@ -619,6 +619,30 @@ src/Solution_findSubstring.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_findSubstring.cpp.s
 .PHONY : src/Solution_findSubstring.cpp.s
 
+src/Solution_firstMissingPositive.o: src/Solution_firstMissingPositive.cpp.o
+.PHONY : src/Solution_firstMissingPositive.o
+
+# target to build an object file
+src/Solution_firstMissingPositive.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_firstMissingPositive.cpp.o
+.PHONY : src/Solution_firstMissingPositive.cpp.o
+
+src/Solution_firstMissingPositive.i: src/Solution_firstMissingPositive.cpp.i
+.PHONY : src/Solution_firstMissingPositive.i
+
+# target to preprocess a source file
+src/Solution_firstMissingPositive.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_firstMissingPositive.cpp.i
+.PHONY : src/Solution_firstMissingPositive.cpp.i
+
+src/Solution_firstMissingPositive.s: src/Solution_firstMissingPositive.cpp.s
+.PHONY : src/Solution_firstMissingPositive.s
+
+# target to generate assembly for a file
+src/Solution_firstMissingPositive.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_firstMissingPositive.cpp.s
+.PHONY : src/Solution_firstMissingPositive.cpp.s
+
 src/Solution_isMatch.o: src/Solution_isMatch.cpp.o
 .PHONY : src/Solution_isMatch.o
 
@@ -642,6 +666,30 @@ src/Solution_isMatch.s: src/Solution_isMatch.cpp.s
 src/Solution_isMatch.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_isMatch.cpp.s
 .PHONY : src/Solution_isMatch.cpp.s
+
+src/Solution_longestValidParentheses.o: src/Solution_longestValidParentheses.cpp.o
+.PHONY : src/Solution_longestValidParentheses.o
+
+# target to build an object file
+src/Solution_longestValidParentheses.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_longestValidParentheses.cpp.o
+.PHONY : src/Solution_longestValidParentheses.cpp.o
+
+src/Solution_longestValidParentheses.i: src/Solution_longestValidParentheses.cpp.i
+.PHONY : src/Solution_longestValidParentheses.i
+
+# target to preprocess a source file
+src/Solution_longestValidParentheses.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_longestValidParentheses.cpp.i
+.PHONY : src/Solution_longestValidParentheses.cpp.i
+
+src/Solution_longestValidParentheses.s: src/Solution_longestValidParentheses.cpp.s
+.PHONY : src/Solution_longestValidParentheses.s
+
+# target to generate assembly for a file
+src/Solution_longestValidParentheses.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_longestValidParentheses.cpp.s
+.PHONY : src/Solution_longestValidParentheses.cpp.s
 
 src/Solution_mergeKLists.o: src/Solution_mergeKLists.cpp.o
 .PHONY : src/Solution_mergeKLists.o
@@ -767,9 +815,15 @@ help:
 	@echo "... src/Solution_findSubstring.o"
 	@echo "... src/Solution_findSubstring.i"
 	@echo "... src/Solution_findSubstring.s"
+	@echo "... src/Solution_firstMissingPositive.o"
+	@echo "... src/Solution_firstMissingPositive.i"
+	@echo "... src/Solution_firstMissingPositive.s"
 	@echo "... src/Solution_isMatch.o"
 	@echo "... src/Solution_isMatch.i"
 	@echo "... src/Solution_isMatch.s"
+	@echo "... src/Solution_longestValidParentheses.o"
+	@echo "... src/Solution_longestValidParentheses.i"
+	@echo "... src/Solution_longestValidParentheses.s"
 	@echo "... src/Solution_mergeKLists.o"
 	@echo "... src/Solution_mergeKLists.i"
 	@echo "... src/Solution_mergeKLists.s"

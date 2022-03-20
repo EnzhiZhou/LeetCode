@@ -8,6 +8,7 @@
 #include "include/Solution_mergeKLists.h"
 #include "include/Solution_reverseKGroup.h"
 #include "include/Solution_longestValidParentheses.h"
+#include "include/Solution_firstMissingPositive.h"
 
 using namespace std;
 
@@ -66,6 +67,11 @@ int main(int argc,char *argv[])
     cout << "longestValidParentheses: Test in Leetcode URL." << endl;
     
 
+    cout << "firstMissingPositive" << endl;
+    vector<int> vec6{7, 8, 9, 11, 12};
+    Solution_firstMissingPositive s6;
+    int ret6 = s6.firstMissingPositive(vec6);
+    cout<<  ret6 << endl;
 
     return 0;
 }
