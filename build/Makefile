@@ -739,6 +739,30 @@ src/Solution_reverseKGroup.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_reverseKGroup.cpp.s
 .PHONY : src/Solution_reverseKGroup.cpp.s
 
+src/Solution_trap.o: src/Solution_trap.cpp.o
+.PHONY : src/Solution_trap.o
+
+# target to build an object file
+src/Solution_trap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_trap.cpp.o
+.PHONY : src/Solution_trap.cpp.o
+
+src/Solution_trap.i: src/Solution_trap.cpp.i
+.PHONY : src/Solution_trap.i
+
+# target to preprocess a source file
+src/Solution_trap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_trap.cpp.i
+.PHONY : src/Solution_trap.cpp.i
+
+src/Solution_trap.s: src/Solution_trap.cpp.s
+.PHONY : src/Solution_trap.s
+
+# target to generate assembly for a file
+src/Solution_trap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_trap.cpp.s
+.PHONY : src/Solution_trap.cpp.s
+
 src/utils.o: src/utils.cpp.o
 .PHONY : src/utils.o
 
@@ -830,6 +854,9 @@ help:
 	@echo "... src/Solution_reverseKGroup.o"
 	@echo "... src/Solution_reverseKGroup.i"
 	@echo "... src/Solution_reverseKGroup.s"
+	@echo "... src/Solution_trap.o"
+	@echo "... src/Solution_trap.i"
+	@echo "... src/Solution_trap.s"
 	@echo "... src/utils.o"
 	@echo "... src/utils.i"
 	@echo "... src/utils.s"

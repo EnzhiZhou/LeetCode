@@ -9,6 +9,7 @@
 #include "include/Solution_reverseKGroup.h"
 #include "include/Solution_longestValidParentheses.h"
 #include "include/Solution_firstMissingPositive.h"
+#include "include/Solution_trap.h"
 
 using namespace std;
 
@@ -71,7 +72,13 @@ int main(int argc,char *argv[])
     vector<int> vec6{7, 8, 9, 11, 12};
     Solution_firstMissingPositive s6;
     int ret6 = s6.firstMissingPositive(vec6);
-    cout<<  ret6 << endl;
+    cout<< ret6 << endl;
+
+    cout << "trap" << endl;
+    vector<int> height1{4, 2, 0, 3, 2, 5};
+    Solution_trap s7;
+    int ret7 = s7.trap(height1);
+    cout<< ret7 << endl;
 
     return 0;
 }

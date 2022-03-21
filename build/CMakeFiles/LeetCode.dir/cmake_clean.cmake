@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/LeetCode.dir/src/Solution_mergeKLists.cpp.o.d"
   "CMakeFiles/LeetCode.dir/src/Solution_reverseKGroup.cpp.o"
   "CMakeFiles/LeetCode.dir/src/Solution_reverseKGroup.cpp.o.d"
+  "CMakeFiles/LeetCode.dir/src/Solution_trap.cpp.o"
+  "CMakeFiles/LeetCode.dir/src/Solution_trap.cpp.o.d"
   "CMakeFiles/LeetCode.dir/src/utils.cpp.o"
   "CMakeFiles/LeetCode.dir/src/utils.cpp.o.d"
   "LeetCode"
