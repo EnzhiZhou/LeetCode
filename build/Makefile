@@ -667,6 +667,30 @@ src/Solution_isMatch.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_isMatch.cpp.s
 .PHONY : src/Solution_isMatch.cpp.s
 
+src/Solution_isMatch_2.o: src/Solution_isMatch_2.cpp.o
+.PHONY : src/Solution_isMatch_2.o
+
+# target to build an object file
+src/Solution_isMatch_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_isMatch_2.cpp.o
+.PHONY : src/Solution_isMatch_2.cpp.o
+
+src/Solution_isMatch_2.i: src/Solution_isMatch_2.cpp.i
+.PHONY : src/Solution_isMatch_2.i
+
+# target to preprocess a source file
+src/Solution_isMatch_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_isMatch_2.cpp.i
+.PHONY : src/Solution_isMatch_2.cpp.i
+
+src/Solution_isMatch_2.s: src/Solution_isMatch_2.cpp.s
+.PHONY : src/Solution_isMatch_2.s
+
+# target to generate assembly for a file
+src/Solution_isMatch_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_isMatch_2.cpp.s
+.PHONY : src/Solution_isMatch_2.cpp.s
+
 src/Solution_longestValidParentheses.o: src/Solution_longestValidParentheses.cpp.o
 .PHONY : src/Solution_longestValidParentheses.o
 
@@ -845,6 +869,9 @@ help:
 	@echo "... src/Solution_isMatch.o"
 	@echo "... src/Solution_isMatch.i"
 	@echo "... src/Solution_isMatch.s"
+	@echo "... src/Solution_isMatch_2.o"
+	@echo "... src/Solution_isMatch_2.i"
+	@echo "... src/Solution_isMatch_2.s"
 	@echo "... src/Solution_longestValidParentheses.o"
 	@echo "... src/Solution_longestValidParentheses.i"
 	@echo "... src/Solution_longestValidParentheses.s"

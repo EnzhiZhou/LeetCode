@@ -5,6 +5,7 @@
 #include "include/Solution_countBits.h"
 #include "include/Solution_findMedianSortedArrays.h"
 #include "include/Solution_isMatch.h"
+#include "include/Solution_isMatch_2.h"
 #include "include/Solution_mergeKLists.h"
 #include "include/Solution_reverseKGroup.h"
 #include "include/Solution_longestValidParentheses.h"
@@ -79,6 +80,12 @@ int main(int argc,char *argv[])
     Solution_trap s7;
     int ret7 = s7.trap(height1);
     cout<< ret7 << endl;
+
+    cout << "isMatch_2: " << endl;
+    Solution_isMatch_2 s3_2;
+    string ss= "adceb", pp = "*a*b";
+    bool ret3_2= s3_2.isMatch(ss, pp);
+    cout << ret3_2 << endl;
 
     return 0;
 }

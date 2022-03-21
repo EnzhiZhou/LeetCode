@@ -153,10 +153,24 @@ CMakeFiles/LeetCode.dir/src/Solution_isMatch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode.dir/src/Solution_isMatch.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/enzhizhou/Desktop/Activities/C++/LeetCode/src/Solution_isMatch.cpp -o CMakeFiles/LeetCode.dir/src/Solution_isMatch.cpp.s
 
+CMakeFiles/LeetCode.dir/src/Solution_isMatch_2.cpp.o: CMakeFiles/LeetCode.dir/flags.make
+CMakeFiles/LeetCode.dir/src/Solution_isMatch_2.cpp.o: ../src/Solution_isMatch_2.cpp
+CMakeFiles/LeetCode.dir/src/Solution_isMatch_2.cpp.o: CMakeFiles/LeetCode.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/enzhizhou/Desktop/Activities/C++/LeetCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/LeetCode.dir/src/Solution_isMatch_2.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCode.dir/src/Solution_isMatch_2.cpp.o -MF CMakeFiles/LeetCode.dir/src/Solution_isMatch_2.cpp.o.d -o CMakeFiles/LeetCode.dir/src/Solution_isMatch_2.cpp.o -c /Users/enzhizhou/Desktop/Activities/C++/LeetCode/src/Solution_isMatch_2.cpp
+
+CMakeFiles/LeetCode.dir/src/Solution_isMatch_2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCode.dir/src/Solution_isMatch_2.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/enzhizhou/Desktop/Activities/C++/LeetCode/src/Solution_isMatch_2.cpp > CMakeFiles/LeetCode.dir/src/Solution_isMatch_2.cpp.i
+
+CMakeFiles/LeetCode.dir/src/Solution_isMatch_2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode.dir/src/Solution_isMatch_2.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/enzhizhou/Desktop/Activities/C++/LeetCode/src/Solution_isMatch_2.cpp -o CMakeFiles/LeetCode.dir/src/Solution_isMatch_2.cpp.s
+
 CMakeFiles/LeetCode.dir/src/Solution_longestValidParentheses.cpp.o: CMakeFiles/LeetCode.dir/flags.make
 CMakeFiles/LeetCode.dir/src/Solution_longestValidParentheses.cpp.o: ../src/Solution_longestValidParentheses.cpp
 CMakeFiles/LeetCode.dir/src/Solution_longestValidParentheses.cpp.o: CMakeFiles/LeetCode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/enzhizhou/Desktop/Activities/C++/LeetCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/LeetCode.dir/src/Solution_longestValidParentheses.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/enzhizhou/Desktop/Activities/C++/LeetCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/LeetCode.dir/src/Solution_longestValidParentheses.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCode.dir/src/Solution_longestValidParentheses.cpp.o -MF CMakeFiles/LeetCode.dir/src/Solution_longestValidParentheses.cpp.o.d -o CMakeFiles/LeetCode.dir/src/Solution_longestValidParentheses.cpp.o -c /Users/enzhizhou/Desktop/Activities/C++/LeetCode/src/Solution_longestValidParentheses.cpp
 
 CMakeFiles/LeetCode.dir/src/Solution_longestValidParentheses.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/LeetCode.dir/src/Solution_longestValidParentheses.cpp.s: cmake_force
 CMakeFiles/LeetCode.dir/src/Solution_mergeKLists.cpp.o: CMakeFiles/LeetCode.dir/flags.make
 CMakeFiles/LeetCode.dir/src/Solution_mergeKLists.cpp.o: ../src/Solution_mergeKLists.cpp
 CMakeFiles/LeetCode.dir/src/Solution_mergeKLists.cpp.o: CMakeFiles/LeetCode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/enzhizhou/Desktop/Activities/C++/LeetCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/LeetCode.dir/src/Solution_mergeKLists.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/enzhizhou/Desktop/Activities/C++/LeetCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/LeetCode.dir/src/Solution_mergeKLists.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCode.dir/src/Solution_mergeKLists.cpp.o -MF CMakeFiles/LeetCode.dir/src/Solution_mergeKLists.cpp.o.d -o CMakeFiles/LeetCode.dir/src/Solution_mergeKLists.cpp.o -c /Users/enzhizhou/Desktop/Activities/C++/LeetCode/src/Solution_mergeKLists.cpp
 
 CMakeFiles/LeetCode.dir/src/Solution_mergeKLists.cpp.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/LeetCode.dir/src/Solution_mergeKLists.cpp.s: cmake_force
 CMakeFiles/LeetCode.dir/src/Solution_reverseKGroup.cpp.o: CMakeFiles/LeetCode.dir/flags.make
 CMakeFiles/LeetCode.dir/src/Solution_reverseKGroup.cpp.o: ../src/Solution_reverseKGroup.cpp
 CMakeFiles/LeetCode.dir/src/Solution_reverseKGroup.cpp.o: CMakeFiles/LeetCode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/enzhizhou/Desktop/Activities/C++/LeetCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/LeetCode.dir/src/Solution_reverseKGroup.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/enzhizhou/Desktop/Activities/C++/LeetCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/LeetCode.dir/src/Solution_reverseKGroup.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCode.dir/src/Solution_reverseKGroup.cpp.o -MF CMakeFiles/LeetCode.dir/src/Solution_reverseKGroup.cpp.o.d -o CMakeFiles/LeetCode.dir/src/Solution_reverseKGroup.cpp.o -c /Users/enzhizhou/Desktop/Activities/C++/LeetCode/src/Solution_reverseKGroup.cpp
 
 CMakeFiles/LeetCode.dir/src/Solution_reverseKGroup.cpp.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/LeetCode.dir/src/Solution_reverseKGroup.cpp.s: cmake_force
 CMakeFiles/LeetCode.dir/src/Solution_trap.cpp.o: CMakeFiles/LeetCode.dir/flags.make
 CMakeFiles/LeetCode.dir/src/Solution_trap.cpp.o: ../src/Solution_trap.cpp
 CMakeFiles/LeetCode.dir/src/Solution_trap.cpp.o: CMakeFiles/LeetCode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/enzhizhou/Desktop/Activities/C++/LeetCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/LeetCode.dir/src/Solution_trap.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/enzhizhou/Desktop/Activities/C++/LeetCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/LeetCode.dir/src/Solution_trap.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCode.dir/src/Solution_trap.cpp.o -MF CMakeFiles/LeetCode.dir/src/Solution_trap.cpp.o.d -o CMakeFiles/LeetCode.dir/src/Solution_trap.cpp.o -c /Users/enzhizhou/Desktop/Activities/C++/LeetCode/src/Solution_trap.cpp
 
 CMakeFiles/LeetCode.dir/src/Solution_trap.cpp.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/LeetCode.dir/src/Solution_trap.cpp.s: cmake_force
 CMakeFiles/LeetCode.dir/src/utils.cpp.o: CMakeFiles/LeetCode.dir/flags.make
 CMakeFiles/LeetCode.dir/src/utils.cpp.o: ../src/utils.cpp
 CMakeFiles/LeetCode.dir/src/utils.cpp.o: CMakeFiles/LeetCode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/enzhizhou/Desktop/Activities/C++/LeetCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/LeetCode.dir/src/utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/enzhizhou/Desktop/Activities/C++/LeetCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/LeetCode.dir/src/utils.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCode.dir/src/utils.cpp.o -MF CMakeFiles/LeetCode.dir/src/utils.cpp.o.d -o CMakeFiles/LeetCode.dir/src/utils.cpp.o -c /Users/enzhizhou/Desktop/Activities/C++/LeetCode/src/utils.cpp
 
 CMakeFiles/LeetCode.dir/src/utils.cpp.i: cmake_force
@@ -231,6 +245,7 @@ LeetCode_OBJECTS = \
 "CMakeFiles/LeetCode.dir/src/Solution_findSubstring.cpp.o" \
 "CMakeFiles/LeetCode.dir/src/Solution_firstMissingPositive.cpp.o" \
 "CMakeFiles/LeetCode.dir/src/Solution_isMatch.cpp.o" \
+"CMakeFiles/LeetCode.dir/src/Solution_isMatch_2.cpp.o" \
 "CMakeFiles/LeetCode.dir/src/Solution_longestValidParentheses.cpp.o" \
 "CMakeFiles/LeetCode.dir/src/Solution_mergeKLists.cpp.o" \
 "CMakeFiles/LeetCode.dir/src/Solution_reverseKGroup.cpp.o" \
@@ -246,6 +261,7 @@ LeetCode: CMakeFiles/LeetCode.dir/src/Solution_findMedianSortedArrays.cpp.o
 LeetCode: CMakeFiles/LeetCode.dir/src/Solution_findSubstring.cpp.o
 LeetCode: CMakeFiles/LeetCode.dir/src/Solution_firstMissingPositive.cpp.o
 LeetCode: CMakeFiles/LeetCode.dir/src/Solution_isMatch.cpp.o
+LeetCode: CMakeFiles/LeetCode.dir/src/Solution_isMatch_2.cpp.o
 LeetCode: CMakeFiles/LeetCode.dir/src/Solution_longestValidParentheses.cpp.o
 LeetCode: CMakeFiles/LeetCode.dir/src/Solution_mergeKLists.cpp.o
 LeetCode: CMakeFiles/LeetCode.dir/src/Solution_reverseKGroup.cpp.o
@@ -253,7 +269,7 @@ LeetCode: CMakeFiles/LeetCode.dir/src/Solution_trap.cpp.o
 LeetCode: CMakeFiles/LeetCode.dir/src/utils.cpp.o
 LeetCode: CMakeFiles/LeetCode.dir/build.make
 LeetCode: CMakeFiles/LeetCode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/enzhizhou/Desktop/Activities/C++/LeetCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable LeetCode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/enzhizhou/Desktop/Activities/C++/LeetCode/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable LeetCode"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LeetCode.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
