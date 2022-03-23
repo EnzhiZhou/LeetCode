@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/enzhizhou/Desktop/Activities/C++/LeetCode/src/Solution_longestValidParentheses.cpp" "CMakeFiles/LeetCode.dir/src/Solution_longestValidParentheses.cpp.o" "gcc" "CMakeFiles/LeetCode.dir/src/Solution_longestValidParentheses.cpp.o.d"
   "/Users/enzhizhou/Desktop/Activities/C++/LeetCode/src/Solution_mergeKLists.cpp" "CMakeFiles/LeetCode.dir/src/Solution_mergeKLists.cpp.o" "gcc" "CMakeFiles/LeetCode.dir/src/Solution_mergeKLists.cpp.o.d"
   "/Users/enzhizhou/Desktop/Activities/C++/LeetCode/src/Solution_reverseKGroup.cpp" "CMakeFiles/LeetCode.dir/src/Solution_reverseKGroup.cpp.o" "gcc" "CMakeFiles/LeetCode.dir/src/Solution_reverseKGroup.cpp.o.d"
+  "/Users/enzhizhou/Desktop/Activities/C++/LeetCode/src/Solution_solveNQueens.cpp" "CMakeFiles/LeetCode.dir/src/Solution_solveNQueens.cpp.o" "gcc" "CMakeFiles/LeetCode.dir/src/Solution_solveNQueens.cpp.o.d"
   "/Users/enzhizhou/Desktop/Activities/C++/LeetCode/src/Solution_trap.cpp" "CMakeFiles/LeetCode.dir/src/Solution_trap.cpp.o" "gcc" "CMakeFiles/LeetCode.dir/src/Solution_trap.cpp.o.d"
   "/Users/enzhizhou/Desktop/Activities/C++/LeetCode/src/utils.cpp" "CMakeFiles/LeetCode.dir/src/utils.cpp.o" "gcc" "CMakeFiles/LeetCode.dir/src/utils.cpp.o.d"
   )

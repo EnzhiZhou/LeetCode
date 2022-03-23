@@ -763,6 +763,30 @@ src/Solution_reverseKGroup.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_reverseKGroup.cpp.s
 .PHONY : src/Solution_reverseKGroup.cpp.s
 
+src/Solution_solveNQueens.o: src/Solution_solveNQueens.cpp.o
+.PHONY : src/Solution_solveNQueens.o
+
+# target to build an object file
+src/Solution_solveNQueens.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_solveNQueens.cpp.o
+.PHONY : src/Solution_solveNQueens.cpp.o
+
+src/Solution_solveNQueens.i: src/Solution_solveNQueens.cpp.i
+.PHONY : src/Solution_solveNQueens.i
+
+# target to preprocess a source file
+src/Solution_solveNQueens.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_solveNQueens.cpp.i
+.PHONY : src/Solution_solveNQueens.cpp.i
+
+src/Solution_solveNQueens.s: src/Solution_solveNQueens.cpp.s
+.PHONY : src/Solution_solveNQueens.s
+
+# target to generate assembly for a file
+src/Solution_solveNQueens.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/src/Solution_solveNQueens.cpp.s
+.PHONY : src/Solution_solveNQueens.cpp.s
+
 src/Solution_trap.o: src/Solution_trap.cpp.o
 .PHONY : src/Solution_trap.o
 
@@ -881,6 +905,9 @@ help:
 	@echo "... src/Solution_reverseKGroup.o"
 	@echo "... src/Solution_reverseKGroup.i"
 	@echo "... src/Solution_reverseKGroup.s"
+	@echo "... src/Solution_solveNQueens.o"
+	@echo "... src/Solution_solveNQueens.i"
+	@echo "... src/Solution_solveNQueens.s"
 	@echo "... src/Solution_trap.o"
 	@echo "... src/Solution_trap.i"
 	@echo "... src/Solution_trap.s"
