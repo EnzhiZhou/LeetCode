@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <unordered_set>
 #include "include/utils.h"
 #include "include/Solution_countBits.h"
 #include "include/Solution_findMedianSortedArrays.h"
@@ -15,6 +16,42 @@
 
 using namespace std;
 
+
+class Solution {
+public:
+    string getPermutation(int n, int k) {
+        unordered_set<int>array_set;
+        vector<int> array_vec;
+        string ans;
+        int nums = 0;
+        function <void(int index)>backTrack;
+        backTrack = [&](int index){
+            if (index == n){
+                ++nums;
+                if (nums == k) {
+                    for (auto &num:array_vec){
+                        ans += (num + '0');
+                    }
+                }
+            }
+            else{
+                for (int i =1; i <= n; ++i){
+                    if (array_set.find(i) != array_set.end()){
+                        continue;
+                    }
+                    array_set.insert(i);
+                    array_vec.push_back(i);
+                    backTrack(index + 1);
+                    array_set.erase(i);
+                    array_vec.pop_back();
+                }
+            }
+        };
+        backTrack(0);
+
+        return ans;
+    }
+};
 
 int main(int argc,char *argv[])
 {
@@ -89,6 +126,11 @@ int main(int argc,char *argv[])
     // cout << ret3_2 << endl;
 
     cout << "solveNQueens: Test in Leetcode URL." << endl;
+
+    Solution ss;
+    string ret8 = ss.getPermutation(3, 3);
+
+    cout << ret8 << endl;
   
 
     return 0;
